@@ -1,0 +1,94 @@
+<!--Optimize site, compress images!-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <script type="text/javascript" src="js/jquery-2.1.4.min.js">
+        </script>
+        <script type="text/javascript" src="js/bootstrap.min.js">
+        </script>
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"><img class="logo" src="http://www.hiddenpeanuts.com/wp-content/uploads/2012/06/photo1.jpg" alt="logo"></div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="title-super">Andreas Daiminger</h1>
+                    <h3>Front-end Ninja</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <!--I embed this video because I wanted to practice responsive design with videos. There is no semantic reason for it to be there. Like the images it is just stuff I like! And at this stage they more like placeholders-->
+                <div class="col-md-12 responsive-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qoUknXdmOWk" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Featured Work</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <img class="img-responsive" src="images/img1.jpg" alt="project-img-1" data-toggle="modal" data-target="#project1">
+                    <h3>Introduction to Programming</h3>
+                    <p><a href="http://kinetic-silicon-104012.appspot.com/">Link to project</a></p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive" src="images/img2.jpg" alt="project-img-2">
+                    <h3>Placeholder for a future project</h3>
+                    <p><a href="http://github.com">Link to project</a></p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <img class="img-responsive" src="images/img3.jpg">
+                    <h3>Placeholder for a future project</h3>
+                    <p><a href="http://github.com">Link to project</a></p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-responsive" src="images/img4.jpg" alt="project-img-4">
+                    <h3>Placeholder for a future project</h3>
+                    <p><a href="http://github.com">Link to project</a></p>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/jquery-2.1.4.min.js">
+        </script>
+        <!-- Modal -->
+        <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title" id="myModalLabel">Telling Computers what to do</h1>
+              </div>
+              <div class="modal-body">
+                <figure>
+                    <img class="img-responsive project-img" src="images/intro-pro-logo.png" alt="intro-programming-logo">
+                    <figcaption>
+                        This was my first NanoDegree. I learned how to think like a Programmer. But I know there is still a long way to go..... developing technological empathy.<br><br>
+                        I turned my notes on the degree into a basic website with a guestbook feauture.
+                        <p><a href="http://kinetic-silicon-104012.appspot.com/">Link to project</a></p>
+                    </figcaption>
+                </figure>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </body>
+</html>
